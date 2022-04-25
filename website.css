@@ -1,0 +1,720 @@
+/*
+This is the header section
+*/
+.menu{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.container-f{
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px #111; 
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.logo-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.search-f{
+    display: flex;
+}
+.search-box-f{
+    width: 351px;
+    height: 45px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.catagory-btn-f{
+    width: 111px;
+    background-color: white;
+}
+.search-btn-f{
+    width: 80px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%);
+}
+.region-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.region-btn-f{
+    width: 111px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+}
+.socials-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.log-buttons-f{
+    display: flex;
+    margin-left:10px;
+    
+}
+.login-f{
+    width: 111px;
+    height: 45px;
+    color: white;
+    background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%), #C4C4C4;
+    border-radius: 50px;
+}
+.signup-f{
+    width: 111px;
+    height: 45px;
+    color: black;
+    background: white;
+    border-radius: 50px;
+}
+/*
+This is the ads section
+*/
+.ads-f{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.ads-f ul li{
+    display:inline-block;
+}
+/*
+This is the categories section
+*/
+.cat-f{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.cat-f ul li{
+    display:inline-block;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    text-decoration: none;
+    height: 198.3px;
+    width: 290px;
+}
+.cat-f ul li a {
+    text-decoration: none;
+}
+.center-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#one-f{
+    background-image: url(/images/food-background.png);
+    height: 198.3px;
+    width: 290px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#two-f{
+    background-image: url(/images/courses-background.png);
+    height: 190px;
+    width: 290px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#three-f{
+    background-image: url(/images/services-background.png);
+    height: 190px;
+    width: 290px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#four-f{
+    background-image: url(/images/deals-background.png);
+    height: 190px;
+    width: 290px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                              Elyas's Work - CSS - The Beginning                          */
+body {
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 1px;
+}
+
+.adsS-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 1px;
+}
+
+.most-popular-container {
+    background: #313131;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.most-popular-title {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1px;
+}
+
+.most-popular-h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: white;
+    padding-left: 103px;
+}
+
+.see-more-h4 {
+    color: white;
+}
+
+.most-popular-items {
+    text-align: center;
+}
+
+.item-card {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 290px;
+    height: 317px;
+    background-color: white;
+    margin-top: 41px;
+    margin-right: 27px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+
+.item-image {
+    width: 290px;
+    height: 234px;
+    padding-top: 28px;
+    text-align: center;
+}
+
+.item-data {
+    display: grid;
+    grid-template-columns: auto auto;
+    /*padding-left: 18px;*/
+    text-align: center;
+}
+
+.rating-display {
+    text-align: center;
+}
+
+.checked {
+    color: #FDC12F;
+}
+
+.unchecked {
+    color: #C4C4C4;
+}
+
+.adsL-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    background: black;
+}
+
+.company-details-container {
+    display: grid;
+    grid-template-columns: 50% auto auto auto;
+    grid-column-gap: 1px;
+}
+
+.company-details-title {
+    color: #3A3A3A;
+    padding-left: 103px;
+}
+
+.company_details_p {
+    padding-left: 103px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    width: auto;
+}
+
+.company_details_image {
+    padding-top: 35px;
+    padding-left: 30px;
+    grid-column-start: 3;
+    /*margin-bottom: 80px;*/
+}
+
+.company_details_button{
+    color: white;
+    font-weight: 500;
+    width: 215.29px;
+    height: 40px;
+    margin-left: 103px;
+    margin-bottom: 80px;
+    background: linear-gradient(94.13deg, #B07908 48.39%, #F4E377 104.48%);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.register-now-container {
+    background: #EBDCBA;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+}
+
+.register-left-side {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.register-word {
+    grid-row-start: 3;
+    color: #BA8A19;
+    padding-left: 261px;
+}
+
+.register-left-side-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+}
+
+/*                              Elyas's Work - CSS - The End          
+
+/*                             Shahad beginning work                                      */
+.home-content{
+    position:absolute;
+    height: 50px;
+    left: 445px;
+    top:1940px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: auto;
+}
+   
+.back-img{
+ background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%), #C4C4C4;
+ padding-top: 1px;
+ bottom: 10px;
+ height: 470px;
+}
+.img{
+  background-color: #242424;
+ padding: 0px;
+  height: 400px;
+}
+.ONE{
+  position: absolute;
+   width: 918px;
+   height: 29px;
+   left: 463px;
+   top: 2000px;
+  font-style: normal;
+    font-weight: 500;
+   font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.TWO{
+  position: absolute;
+   width: 842px;
+  height: 29px;
+  left: 500px;
+   top: 2050px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 25px;
+   line-height: 29px;
+   color: #FFFFFF;
+   
+}
+.THREE{
+ position: absolute;
+  width: 622px;
+   height: 29px;
+  left: 533px;
+  top: 2100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+  color: #FFFFFF;
+}
+.facebook{
+  margin-left: 1500px;
+  position: absolute;
+  top: 2180px;
+}
+.instagram{
+    margin-left:1550px ;
+  position: absolute;
+  top: 2180px;
+}
+.linkedin{
+  margin-left: 1600px;
+    position: absolute;
+  top: 2180px;
+}
+.youtube{
+ margin-left: 1650px;
+  position: absolute;
+   top: 2180px;
+}
+.stay-updated{
+  position:absolute;
+ left: 660px;
+ top:2220px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bold;
+   font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+}
+.info-email{
+ position:absolute;
+ left: 800px;
+  top: 2200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 20px;
+   color: #fff;
+  margin-left: 30px;
+}
+.info{
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5.37812px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.signup-btn{
+    background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%), #C4C4C4;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px 1px;
+    cursor: pointer;
+    border-radius: 5.37812px;
+    margin-left: 10px;
+}
+.brands-content{
+    color: #000000;
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 85px;
+    top: 2350px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 29px;
+      
+}
+.show{
+    color: #000000;
+    position: absolute;
+    height: 83px;
+    left: 1700px;
+    top: 2360px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+   
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 69%;
+    width: 1em;
+    height: 1em;
+    padding: 30px;
+    margin-top: 400px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.next{
+ right: 0;
+}
+.lays{
+    position: absolute;
+    left: 8%;
+    top: 80%;
+    bottom: 7.93%;
+}
+.huawei{
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    bottom: 7.93%;
+}
+.goal{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    bottom: 7.93%;
+}
+.lorem{
+    position: absolute;
+    left: 55%;
+    top: 80%;
+  bottom: 7.93%;
+}
+.company-logo{
+    position: absolute;
+    left: 70.11%;
+    top: 80%;
+    bottom: 7.93%;
+}
+.apple{
+    position: absolute;
+    left: 85.11%;
+    top: 80%;
+    bottom: 7.93%;
+}
+   
+   
+footer{
+    position: relative;
+    width: auto;
+    padding: 40px;
+    top: 480px;
+    background: rgb(39, 39, 39);
+}
+   
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+   
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+   
+.category{
+    width: 200px;
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+   
+.category-title{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.avant-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+    position: absolute;
+    top: 20px;
+}
+.company-info{
+  color: white;
+  margin-left :20px ;
+  font-size: 20px;
+   top: 150px;
+
+}
+.location-logo{
+    margin-left: 1px;
+    position: absolute;
+    top: 168px;
+}
+.location{
+    margin-left: 30px;
+    font-size: 20px;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.phone-logo{
+    margin-left: 1px;
+    position: absolute;
+    top:245px;
+}
+.phone{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.email-logo{
+    margin-left: 1px;
+    position: absolute;
+    top: 325px;
+}
+.email{
+    
+    margin-left: 30px;
+    font-size: 20px;     
+    
+}
+.web-logo{
+    margin-left: 1px;
+    position: absolute;
+    top: 395px;
+}
+.web{
+ margin-left: 30px;
+ font-size: 20px;
+   
+}
+.footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+   
+.footer-link:hover{
+    color: #fff;
+}
+   
+   
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+   
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+   
+.social-link:nth-child(1){
+    margin-left: 0;
+}
+.info{
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6.37812px;
+    margin: 0px 0;
+    text-transform: capitalize;
+}
+.btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1830px;
+    top: 132px;
+    border-radius: 6.37812px;
+    background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%), #C4C4C4;
+}
+.accept{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+   font-size: 30px;
+    margin-bottom: 20px;
+}
+.visa{
+    position: absolute;
+    margin-left: 5px;
+    top: 250px;
+}
+.master{
+    position: absolute;
+    margin-left: 70px;
+    top: 250px;
+     
+}
+.pay{
+    position: absolute;
+    margin-left: 150px;
+    top: 250px;
+}
+.footer-credit{
+ width: 100%;
+ text-align: center;
+ color: #fff;
+ font-size: 19px;
+}
+
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+  
+.cookie{
+    background: #000000;
+    color: #FFF;
+    opacity: 0.8;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 150px;
+    position: fixed;
+  
+}
+
