@@ -116,87 +116,11 @@ This is the ads section
 This is the categories section
 */
 .cat-f{
-    padding: 10px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.cat-f ul{
-    padding: 10px;
-    margin-left: 20px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-.cat-f ul li{
-    display:inline-block;
-    color: white;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 120%;
-    text-align: center;
-    text-decoration: none;
-    height: 190px;
-    width: 290px;
-    margin-left: 35px;
-}
-.cat-f ul li a {
-    text-decoration: none;
-}
-.center-f{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-#one-f{
-    background-image: url(/images/food-background.png);
-    height: 190px;
-    width: 290px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#two-f{
-    background-image: url(/images/courses-background.png);
-    height: 190px;
-    width: 290px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#three-f{
-    background-image: url(/images/services-background.png);
-    height: 190px;
-    width: 290px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#four-f{
-    background-image: url(/images/deals-background.png);
-    height: 190px;
-    width: 290px;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*                              Elyas's Work - CSS - The Beginning                          */
