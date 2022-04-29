@@ -1,6 +1,12 @@
 /*
 This is the header section
 */
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .menu{
     display: inline-block;
     cursor: pointer;
@@ -14,7 +20,6 @@ This is the header section
 }
 .container-f{
     background-color: white;
-    box-shadow: 0px 15px 10px -15px #111; 
     height: 95px;
     display: flex;
     justify-content: center;
@@ -26,9 +31,11 @@ This is the header section
     justify-content: center;
     align-items: center;
     gap: 1em;
+    margin-left: 25px;
 }
 .search-f{
     display: flex;
+    margin-left: 25px;
 }
 .search-box-f{
     width: 351px;
@@ -39,21 +46,22 @@ This is the header section
 }
 .catagory-btn-f{
     width: 111px;
+    height: 45px;
+    padding: 10px;
     background-color: white;
 }
 .search-btn-f{
     width: 80px;
+    height: 45px;
     color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%);
-}
-.region-f{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
 }
+
 .region-btn-f{
     width: 111px;
     height: 45px;
@@ -65,11 +73,19 @@ This is the header section
     justify-content: center;
     align-items: center;
     gap: 1em;
+    margin-left: 25px;
+}
+.region-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-left: 25px;
+
 }
 .log-buttons-f{
     display: flex;
-    margin-left:10px;
-    
+    margin-left: 25px;
 }
 .login-f{
     width: 111px;
