@@ -1,4 +1,7 @@
-﻿# <a href="http://www.sghbb.shop"SGHBB>
+﻿SGHBB 2022
+ www.sghbb.shop
  A Singapore home based business community initiative by Avant Gaea Pte. Ltd.
 
- Supporting HBB sellers in engaging community support with internal inventory system, delivery, POS and consumer lead.
+Supporting HBB sellers with internal inventory system, delivery, POS and consumer lead.
+Engaging marketing advertising and sponsorships to masses.
+Providing consumer platform for quick locating of required services and goods.
