@@ -6,9 +6,17 @@
   <li>Supporting HBB sellers with internal inventory system, delivery, POS and consumer lead.
   <li>Engaging marketing advertising and sponsorships to masses.
   <li>Providing consumer platform for quick locating of required services and goods.
-  </li></li></li>
   </ul></p>
+  <br>
+<h1>Developer Team</h1>
+<ul>
+ <li>Web developing team:
+  <p>Jason, Faisal, Elyas, Shahad, Vanessa
 <br>
-<h4>User & Privacy notice</h4>
+<li>Design team:
+ <p>Vanessa, Razinul
+</ul>
+<br>
+<h1>User & Privacy notice</h1>
 <i>2022 SGHBB by Avant Gaea, all rights reserved.
  </i>
