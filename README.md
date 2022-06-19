@@ -11,10 +11,10 @@
 <h1>Developer Team</h1>
 <ul>
  <li>Web developing team:
-  <p>Jason, Faisal, Elyas, Shahad, Vanessa
+  <p>Jason, Faisal, Elyas, Shahad, Essa
 <br>
-<li>Design team:
- <p>Vanessa, Razinul
+<li>UI/UX team:
+ <p>Essa, Razinul
 </ul>
 <br>
 <h1>User & Privacy notice</h1>
