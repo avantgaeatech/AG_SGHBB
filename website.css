@@ -6,9 +6,10 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 1;
 }
 .logo-f{
-    padding: 0 0 0 5px;
+    padding: 20px;
 }
 .menu{
     cursor: pointer;
@@ -24,9 +25,10 @@ header{
 }
 .search-f{
     display: flex;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 .search-box-f{
+    border: 1px solid black;
     width: 30rem;
     height: 35px;
     font-size: 15px;
@@ -44,6 +46,7 @@ header{
 }
 
 .search-btn-f{
+    border: none;
     width: 50px;
     height: 35px;
     border-top-right-radius: 10px;
@@ -83,7 +86,7 @@ header{
     gap: 1em;
 }
 .log-buttons-f{
-    padding: 5px;
+    padding: 20px;
 }
 .login-f{
     width: 75px;
@@ -93,7 +96,7 @@ header{
     border-radius: 80px;
 }
 .signup-f{
-    width: 75px;
+    width: 95px;
     height: 35px;
     color: black;
     background: white;
@@ -101,6 +104,12 @@ header{
 }
 .insta i{
     color: black !important;
+}
+.socials-f{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
 }
 .socials-f h5{
     display: inline-block;
@@ -110,27 +119,27 @@ header{
 .gsd{
     padding: 10px;
     margin:  5px;
+
+    margin-left: 12px;
     display: inline-block;
 }
-.circle{
+.circle img{
     display: inline-block;
-    border-top:  10px solid red;
-    border-bottom:  10px solid white;
-    width: 20px;
-    background: red;
-    border-radius: 50%;
-    box-shadow: 0px 0px 3px 0.1px black;
+    margin-top: 5px;
+    width: 50px;
+    height: 30px;
 }
 .Services{
     /*margin: 10px;*/
-    margin-left: 12px;
-    margin-right: 12px;
+
     background-color: #313131;
 }
 .body-sub{
     display: flex;
     justify-content: space-around;
     background-color: #313131;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .slide-bar{
@@ -150,7 +159,7 @@ header{
     /*border: 1px solid black;*/
 }
 .slide-bar i {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     align-items: center;
     display: flex;
@@ -173,15 +182,32 @@ header{
 .img-header .top-images img{
     margin: 10px;
 }
-
+.set{
+    display: inline-block;
+}
+.percent{
+    display: inline-block;
+}
+.set i{
+    font-size: 3rem !important;
+    font-weight: bold;
+    position: absolute;
+}
+.percent h2{
+    position: relative;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    top: 0.9rem;
+    left: 5px;
+    bottom: 0rem;
+    color: gray;
+    font-size: 1.7rem;
+}
 
 /*caaasd*/
 
 .most-popular-items {
-
-    /*margin: 10px;*/
-    margin-left: 12px;
-    margin-right: 12px;
     text-align: center;
     background-color: #313131;
 }
@@ -227,25 +253,26 @@ header{
     padding: 10px;
      background-image: linear-gradient(to right, rgba(176,121,8), rgba(231,206,97));
     align-items: center;
-    margin-left: 4rem;
+    margin: auto 6rem;
     width: 15rem;
     border: none;
     border-radius: 8px;
 }
 .business{
-    margin-left: 1rem;
+    margin: auto 6rem;
+    margin-bottom: 1rem;
+    /*text-align: center;*/
 }
 .platform h2{
     margin: 3rem;
-    margin-left: 1rem;
+    /*margin-left: 1rem;*/
 }
 .paperwork img{
     margin-top: 2rem;
 }
 .register-main{
     background-color: #ebdcba;
-    margin-left: 25px;
-    margin-right: 25px;
+    
 }
 .Register h2{
     margin-top: 5.3rem;
@@ -274,8 +301,6 @@ header{
     display: flex;
     justify-content: baseline;
      background: linear-gradient(102.68deg, #B07908 31.59%, #F4E377 95.22%);
-     margin-left: 12px;
-     margin-right: 12px;
      padding: 1px;
 }
 .seller-main .seller{
@@ -300,6 +325,8 @@ header{
     margin: 3rem auto;
 }
 .footer{
+    height: 60vh;
+    margin-bottom: 2rem;
     background: rgb(39, 39, 39);
 }
 .Footer-text{
@@ -320,7 +347,32 @@ header{
     margin: 15px 15px;
 
 }
+.alert-main{
+    width: 100%;
+    position: fixed;
+    bottom: -1rem;
+}
+.alert{
 
+    background-color: #040404;
+    color: #fff;
+}
+.btn-close{
+    background-color: transparent; !important;
+    color: #fff !important;
+}
+.btn-close:hover {
+    background-color: transparent !important;
+}
+.alert-dismissible .btn-close{
+    display: block;
+    position: absolute;
+    left: 10 !important;
+    right: 97% !important;
+    width: 6px !important;
+    height: 1px !important;
+
+}
 @media screen and (max-width: 600px){
     .search-box-f{
         width: 10rem;
