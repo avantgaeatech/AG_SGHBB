@@ -11,7 +11,7 @@
 <h1>Developer Team</h1>
 <ul>
  <li>Web developing team:
-  <p>Jason, Faisal, Elyas, Shahad, Essa
+  <p>Elyas, Essa, Faisal, Jason, Rizwan, Shahad
 <br>
 <li>UI/UX team:
  <p>Essa, Razinul
