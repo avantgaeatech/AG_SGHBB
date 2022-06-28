@@ -15,9 +15,10 @@
 <br>
 <li>UI/UX team:
  <p>Essa, Razinul
- <li>Past team members:
- <p>Elyas, Faisal, Shahad
 </ul>
+ <br>
+<p>Past team members: Elyas, Faisal, Shahad
+<br>
 <br>
 <h1>User & Privacy notice</h1>
 <i>2022 SGHBB by Avant Gaea, all rights reserved.
